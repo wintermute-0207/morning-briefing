@@ -1,0 +1,17 @@
+# Morning Briefing
+
+/node_modules/
+/__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.db
+*.db-journal
+.env
+config.json
+emails/*.html

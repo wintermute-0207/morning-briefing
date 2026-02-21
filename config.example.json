@@ -1,0 +1,29 @@
+{
+  "email": {
+    "host": "smtp.gmail.com",
+    "port": 465,
+    "username": "your-email@gmail.com",
+    "password": "your-app-password",
+    "from": "your-email@gmail.com",
+    "to": "recipient@example.com"
+  },
+  "sources": {
+    "hackernews": {
+      "enabled": true,
+      "max_stories": 4,
+      "min_score": 50,
+      "min_comments": 10
+    },
+    "arxiv": {
+      "enabled": true,
+      "categories": ["cs.AI", "cs.SE", "cs.CL", "cs.CY", "econ.GN", "econ.TH"],
+      "max_papers": 2,
+      "min_traction_score": 10
+    },
+    "mailing_lists": {
+      "enabled": false,
+      "check_email": "your-email@gmail.com",
+      "password": "your-app-password"
+    }
+  }
+}
